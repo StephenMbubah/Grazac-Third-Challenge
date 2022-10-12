@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:untitled4/provider/api.dart';
-import 'package:untitled4/provider/home_screen.dart';
 import 'package:untitled4/screens/sign_in.dart';
 import 'package:untitled4/screens/seats.dart';
 import 'package:untitled4/screens/sign_up.dart';
@@ -28,7 +27,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const AllTickets(),
+      home: const LogIn(),
     ));
   }
 }
